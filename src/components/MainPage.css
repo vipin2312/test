@@ -1,0 +1,13 @@
+.main-page {
+  font-family: Arial, sans-serif;
+}
+
+.content {
+  display: flex;
+  margin-top: 20px;
+}
+
+.content-right {
+  box-shadow: 0px 0px 10px #ccc;
+  margin : 0px 20px
+}

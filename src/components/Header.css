@@ -1,0 +1,43 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #333;
+  color: #fff;
+}
+
+.header-left h1 {
+  font-size: 24px;
+}
+.header .header-action {
+  background: none;
+  color : #fff;
+  box-shadow: none;
+  border :none;
+  margin: 0 15px;
+  cursor : pointer;
+  font-size: 15px;
+  position: relative;
+}
+.header .header-icon {
+  font-size: 20px;
+  margin-top: 5px;
+  position : absolute;
+  left: -15px;
+  top : -5px;
+}
+
+.header-right .header-btn {
+  margin-left: 10px;
+  padding: 10px 15px;
+  background-color: #f06292;
+  border: none;
+  color: white;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.header-right .post-job-btn {
+  background-color: #ff4081;
+}

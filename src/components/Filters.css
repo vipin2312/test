@@ -1,0 +1,36 @@
+.filter-parent {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 20px;
+}
+
+.filter-div {
+  padding : 10px;
+}
+
+.filter-parent .clear {
+  margin-left: 10px;
+  padding: 10px 15px;
+  color: #f06292 !important;
+  border: none;
+  border: 1px solid #f06292;
+  background-color: #fff;
+  color: white;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.filter-div .filter-single {
+  box-shadow: 0px 0px 10px #ccc;
+  border-radius: 20px;
+  padding: 5px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-right: 10px;
+  font-size: 14px;
+}
+.filter-div .clear-icon {
+  margin-left: 10px;
+}
